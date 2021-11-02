@@ -1,0 +1,36 @@
+div {
+  border: solid black 2px;
+  display: inline-block;
+}
+
+.div1 {
+  width: 700px;
+  height: 350px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.logo {
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.top {
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.menu {
+  width: 400px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}

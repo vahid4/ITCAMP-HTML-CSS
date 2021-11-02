@@ -1,0 +1,37 @@
+div {
+  display: inline-block;
+  border: black solid 3px;
+}
+
+.div1 {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+}
+.div2 {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  z-index: 2;
+}
+.div3 {
+  width: 500px;
+  height: 150px;
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  z-index: 3;
+}
+.div4 {
+  width: 100px;
+  height: 500px;
+  position: absolute;
+  top: 50px;
+  left: 500px;
+  z-index: 4;
+}

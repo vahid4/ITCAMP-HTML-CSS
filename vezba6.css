@@ -1,0 +1,42 @@
+div {
+  display: inline-block;
+  border: solid 3px black;
+}
+.levi {
+  width: 350px;
+  height: 250px;
+  background-color: red;
+  position: relative;
+  top: 80px;
+  left: 50px;
+}
+
+.desni {
+  width: 200px;
+  height: 250px;
+  background-color: coral;
+  position: relative;
+  top: 250px;
+  left: -50px;
+  z-index: 2;
+}
+
+.treci {
+  width: 600px;
+  height: 150px;
+  background-color: goldenrod;
+  position: relative;
+  top: 400px;
+  right: 500px;
+  z-index: 3;
+}
+
+.div4 {
+  width: 100px;
+  height: 450px;
+  background-color: rgb(116, 114, 250);
+  position: relative;
+  top: 40px;
+  right: 550px;
+  z-index: 4;
+}

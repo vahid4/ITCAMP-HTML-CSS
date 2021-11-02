@@ -1,0 +1,27 @@
+.prvidiv {
+  background-color: teal;
+  text-decoration: turquoise;
+  width: 300px;
+  height: 80px;
+}
+
+h2 {
+  text-decoration: aqua;
+}
+
+.obicnidiv {
+  width: 300px;
+  height: 80px;
+  border-bottom: grey solid 3px;
+}
+
+.lista {
+  width: 300px;
+  height: 80px;
+  border-bottom: grey solid 3px;
+  text-decoration: none;
+  list-style-type: none;
+}
+ul {
+  padding: none;
+}
