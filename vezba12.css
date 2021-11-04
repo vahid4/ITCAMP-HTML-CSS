@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div {
   width: 350px;
   position: relative;
@@ -62,3 +63,69 @@ h2 {
   background-color: white;
   width: 40px;
 }
+=======
+div {
+  width: 350px;
+  position: relative;
+  left: 50px;
+}
+p {
+  color: gray;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: none;
+}
+.uski {
+  width: 3px;
+  height: 380px;
+  position: absolute;
+  left: 23px;
+  top: 23px;
+  background-color: rgb(192, 192, 192);
+  z-index: -1;
+}
+
+.fas {
+  color: mediumblue;
+}
+.icon1 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+  left: 5px;
+  background-color: white;
+  width: 40px;
+}
+.icon2 {
+  position: absolute;
+  top: 100px;
+  left: 5px;
+  background-color: white;
+  width: 40px;
+}
+.icon3 {
+  position: absolute;
+  top: 190px;
+  left: 3px;
+  background-color: white;
+
+  width: 40px;
+}
+.icon4 {
+  position: absolute;
+  top: 280px;
+  left: 5px;
+  background-color: white;
+  width: 40px;
+}
+.icon5 {
+  position: absolute;
+  top: 370px;
+  left: 5px;
+  background-color: white;
+  width: 40px;
+}
+>>>>>>> e0dae898ca16525871f7d662b56f094856f26a11
