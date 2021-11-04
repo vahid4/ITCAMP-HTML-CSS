@@ -1,0 +1,23 @@
+table {
+  border: black 1px solid;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: solid gray 1px;
+  padding: 10px;
+  padding-right: 100px;
+}
+.sivi {
+  background-color: gray;
+}
+
+td:hover {
+  background-color: lawngreen;
+  font-weight: bold;
+}
+
+th:hover {
+  background-color: lawngreen;
+}
