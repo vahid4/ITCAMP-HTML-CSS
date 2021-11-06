@@ -1,0 +1,51 @@
+h1,
+p {
+  text-align: center;
+}
+
+.prvi {
+  width: 200px;
+  position: absolute;
+  top: 48px;
+  left: 5px;
+  background-color: rgb(201, 198, 198);
+}
+.email {
+  position: relative;
+  left: 200px;
+}
+.drugi {
+  width: 200px;
+  position: relative;
+  left: 150px;
+  top: 48px;
+  background-color: rgb(201, 198, 198);
+}
+.poruka {
+  position: absolute;
+  top: 100px;
+  left: 5px;
+}
+.treci {
+  position: absolute;
+  top: 120px;
+  left: 5px;
+  background-color: rgb(201, 198, 198);
+  width: 400px;
+  height: 150px;
+}
+
+.dugme {
+  background-color: mediumblue;
+  color: white;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  border: none;
+  padding: 10px;
+}
+
+.forma {
+  position: absolute;
+  left: 500px;
+}
