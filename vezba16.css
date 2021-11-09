@@ -1,0 +1,28 @@
+.div1 {
+  margin: auto;
+  width: 300px;
+  height: 700px;
+}
+label {
+  display: block;
+  padding-top: 20px;
+}
+button {
+  display: block;
+  margin-top: 10px;
+  width: 300px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  padding: 7px 0px;
+  border-radius: 5px;
+}
+input,
+textarea {
+  width: 100%;
+}
+
+.dno {
+  font-size: 10px;
+  color: grey;
+}
