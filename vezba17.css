@@ -1,0 +1,79 @@
+.main {
+  width: 500px;
+  height: 60rem;
+
+  margin-left: 30%;
+}
+
+div {
+  display: inline-block;
+  padding: 10px;
+}
+input {
+  width: 200px;
+  height: 30px;
+  display: block;
+}
+
+.manji {
+  width: 80px;
+  display: inline-block;
+}
+.jedan {
+  display: inline-block;
+  width: 60px;
+}
+.dva {
+  width: 87px;
+}
+
+.mali {
+  size: 10px;
+  padding-bottom: 0px;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+}
+
+.robot {
+  border: 1px solid gray;
+
+  width: 177px;
+  margin-left: 10px;
+}
+.roboti {
+  width: 30px;
+  display: inline-block;
+}
+.nisam {
+  font-size: 20px;
+  position: relative;
+  bottom: 8px;
+}
+.dole {
+  display: block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.dugme {
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 250px;
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px 0px;
+}
+
+.registracija {
+  width: 424px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
