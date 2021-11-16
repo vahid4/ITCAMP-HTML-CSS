@@ -1,0 +1,31 @@
+.container {
+  width: 90%;
+  height: 80vh;
+  background-color: khaki;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.div1 {
+  background-color: blue;
+}
+.div2 {
+  background-color: brown;
+}
+.div3 {
+  background-color: chartreuse;
+}
+.div4 {
+  background-color: darkorange;
+}
