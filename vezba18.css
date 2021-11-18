@@ -3,6 +3,12 @@ body {
 }
 section {
   margin: 0px;
+  overflow: hidden;
+}
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
 }
 li {
   display: inline-block;
@@ -16,12 +22,14 @@ a {
 }
 ul {
   background-color: rgb(19, 24, 41);
+  height: 14%;
 }
 .nav {
   margin-left: 500px;
 }
 .h1 {
   text-align: center;
+  margin-top: 120px;
   font-size: 50px;
   text-shadow: 0px 0px 10px rgb(78, 77, 77);
 }
@@ -45,8 +53,8 @@ ul {
   background-color: rgb(19, 24, 41);
 }
 .prva {
-  margin-top: -5%;
-  height: 80vh;
+  margin-top: -2%;
+  height: 90vh;
   width: 100%;
   background-image: url(./pozadina.jpg);
   background-repeat: no-repeat;
@@ -58,8 +66,9 @@ ul {
 .druga {
   width: 100%;
   height: 100vh;
+  position: relative;
   overflow: hidden;
-  margin-top: -4%;
+
   background-image: url(./zalazaksunca.jpg);
 }
 .druginaslov {
@@ -80,33 +89,153 @@ ul {
   height: 200px;
   display: inline;
   float: right;
-  position: relative;
+  position: absolute;
+  left: 60rem;
   animation: mojanimacija;
-  animation-duration: 2s;
-  animation-iteration-count: inherit;
-  animation-delay: 0.5s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: inherit;
 }
 .oblak2 {
   width: 400px;
   height: 200px;
   display: inline;
+  z-index: 1;
   float: right;
-  position: relative;
+  position: absolute;
+  left: 60rem;
   animation: mojanimacija;
-  animation-duration: 2s;
-  animation-iteration-count: inherit;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-fill-mode: inherit;
 }
 @keyframes mojanimacija {
   0% {
-    bottom: 0px;
-    left: 0px;
+    transform: translate(0%, 0%);
   }
   50% {
-    bottom: 50px;
-    left: 50px;
+    transform: translate(10%, -10%);
   }
   100% {
-    bottom: 0px;
-    left: 0px;
+    transform: translate(0%, 0%);
   }
+}
+.treca {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./more.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.trecinaslov {
+  color: yellow;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 5%;
+}
+.trecip {
+  color: yellow;
+  text-align: center;
+  font-size: xx-large;
+}
+.plava {
+  background-color: rgb(5, 76, 121);
+  width: 20rem;
+  height: 7rem;
+  text-align: center;
+  color: white;
+}
+.plava:hover {
+  background-color: rgb(19, 24, 41);
+  transition-duration: 1s;
+}
+.beli {
+  background-color: white;
+  width: 20rem;
+  height: 7rem;
+  text-align: center;
+}
+.horizontalni {
+  display: inline-block;
+  margin-left: 50px;
+}
+.glavni {
+  margin-left: 5%;
+}
+.naslovi {
+  margin-top: 0px;
+}
+i {
+  padding-top: 20px;
+}
+p {
+  font-size: x-large;
+}
+.cetvrta {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./contact\ us.jpg);
+}
+.poslednji {
+  background-color: rgba(0, 0, 0, 0.61);
+  margin: auto;
+  width: 50%;
+  height: 60%;
+  margin-top: 10%;
+  border-radius: 30px;
+}
+.contactus {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 30px;
+  color: white;
+}
+.dugme2 {
+  display: block;
+  border: none;
+  background-color: rgb(5, 76, 121);
+  color: white;
+  font-size: x-large;
+  width: 100%;
+  height: 60px;
+  margin-top: 9vh;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.dugme2:hover {
+  background-color: rgb(19, 24, 41);
+  transition-duration: 1s;
+}
+.labeli {
+  display: block;
+  margin-top: 50px;
+}
+label {
+  color: white;
+  font-size: 30px;
+  padding-left: 70px;
+}
+input {
+  width: 300px;
+  height: 40px;
+}
+.footer {
+  width: 100%;
+  height: 15%;
+  margin-top: -5%;
+
+  background-color: rgb(19, 24, 41);
+  color: white;
+}
+.poslednjinaslov {
+  padding: 10px 20px;
+  display: inline-block;
+}
+.fab {
+  float: right;
+  margin: 0px 90px;
 }
