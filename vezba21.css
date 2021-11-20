@@ -4,7 +4,7 @@
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 h1 {
   text-align: center;
@@ -19,8 +19,9 @@ p {
 .manji {
   width: 27%;
   height: 20%;
-  border: black 1px solid;
+  border: gray 1px solid;
   padding: 20px;
+  border-radius: 10px;
 }
 .dugme {
   width: 20%;
