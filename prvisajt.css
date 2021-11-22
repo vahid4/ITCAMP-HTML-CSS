@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+header li {
+  margin: 10px;
+  font-size: 20px;
+}
+.dugmeheader {
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  background-color: white;
+}
+.dugmeheader:hover {
+  background-color: rgb(47, 47, 212);
+  color: white;
+  transition-duration: 0.5s;
+}
