@@ -157,3 +157,46 @@ h3 {
   flex-direction: column;
   align-items: center;
 }
+.petasekcija {
+  border: 1px solid black;
+  width: 100%;
+  height: 170vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.petasekcija h1,
+p {
+  text-align: center;
+}
+.petasekcija h1 {
+  color: rgb(104, 103, 103);
+  font-size: 40px;
+  margin-top: 50px;
+}
+.petasekcija p {
+  font-size: 20px;
+  margin: 20px;
+}
+.divkartica {
+  width: 90%;
+  height: 150vh;
+  border: 1px solid black;
+  background-color: burlywood;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.divkartica div {
+  width: 350px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+.divkartica div h3 {
+  font-size: 25px;
+}

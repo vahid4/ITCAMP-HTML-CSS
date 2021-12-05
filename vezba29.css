@@ -1,0 +1,90 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.facebook {
+  color: blue;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 0px;
+}
+.main {
+  border: 1px solid black;
+  width: 30%;
+  height: 80vh;
+}
+.gornji {
+  width: 100%;
+  height: 10vh;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form input {
+  height: 35px;
+  width: 180px;
+  margin: 10px;
+}
+.mobile,
+.password {
+  width: 94.5%;
+}
+form label {
+  display: block;
+  margin: 10px;
+}
+select {
+  width: 125px;
+  height: 30px;
+}
+.prvioption {
+  margin-left: 10px;
+}
+.mali {
+  border: 1px solid grey;
+  width: 110px;
+  height: 30px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.radio {
+  display: inline;
+}
+.donji {
+  display: flex;
+}
+.radio2 {
+  font-size: 5px;
+  width: 15px;
+}
+.dugme {
+  width: 150px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.prostorzadugme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.acc {
+  color: mediumblue;
+  font-size: 20px;
+  margin-top: 10px;
+}
