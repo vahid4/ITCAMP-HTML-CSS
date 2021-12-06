@@ -200,3 +200,114 @@ p {
 .divkartica div h3 {
   font-size: 25px;
 }
+.sestasekcija {
+  border: 1px solid black;
+  width: 100%;
+  height: 250vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sestasekcija h1,
+p {
+  text-align: center;
+}
+.kategorije {
+  border: 1px solid blue;
+  width: 50%;
+  height: 10vh;
+}
+.kategorije ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.kategorije li {
+  margin: 10px;
+
+  font-size: 20px;
+}
+.sestasekcija h1 {
+  color: rgb(104, 103, 103);
+  font-size: 40px;
+  margin-top: 50px;
+}
+.sestasekcija p {
+  font-size: 20px;
+  margin: 20px;
+}
+.sestasekcija li:hover {
+  color: hsl(151, 82%, 48%);
+}
+
+.slika1 {
+  width: 350px;
+  height: 350px;
+}
+.slika2 {
+  width: 350px;
+  height: 250px;
+}
+.divzaslike {
+  border: 1px solid red;
+  width: 85%;
+  height: 170vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slika3 {
+  width: 350px;
+  height: 200px;
+}
+.slika4 {
+  width: 350px;
+  height: 500px;
+}
+.slika5 {
+  width: 350px;
+  height: 550px;
+}
+.slika6 {
+  width: 350px;
+  height: 250px;
+}
+.slika7 {
+  width: 350px;
+  height: 250px;
+}
+.divzaslike1 {
+  border: 1px solid green;
+  width: 31.5%;
+  height: 100%;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.divzaslike1 div {
+  margin-top: 20px;
+}
+.divzaslike2 {
+  border: 1px solid rosybrown;
+  width: 31.5%;
+  height: 100%;
+  margin: 10px;
+}
+.divzaslike2 div {
+  margin-top: 20px;
+}
+.divzaslike3 {
+  border: 1px solid peru;
+  width: 31.5%;
+  height: 100%;
+  margin: 10px;
+}
+.divzaslike3 div {
+  margin-top: 20px;
+}
+.slika8,
+.slika9 {
+  width: 350px;
+  height: 250px;
+}
