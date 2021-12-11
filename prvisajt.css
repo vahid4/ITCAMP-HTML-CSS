@@ -203,7 +203,7 @@ p {
 .sestasekcija {
   border: 1px solid black;
   width: 100%;
-  height: 250vh;
+  height: 220vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -310,4 +310,79 @@ p {
 .slika9 {
   width: 350px;
   height: 250px;
+}
+.sedmasekcija {
+  border: 1px solid brown;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(236, 235, 235);
+}
+.sedmasekcija h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  color: rgb(104, 103, 103);
+}
+.sedmasekcija p {
+  font-size: 20px;
+  margin: 20px;
+}
+.testimonials {
+  border: 1px solid red;
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.testimonials div {
+  background-color: white;
+  border: 1px solid black;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.testimonials p {
+  text-align: start;
+  font-style: italic;
+  color: rgb(63, 62, 62);
+}
+.testimonials img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.testimonials h3 {
+  margin-left: 20px;
+}
+.osmasekcija {
+  width: 100%;
+  height: 40vh;
+  background-color: hsl(151, 82%, 48%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.osmasekcija h1 {
+  font-size: 35px;
+}
+.osmasekcija p {
+  font-size: 20px;
+  margin: 20px;
+}
+.osmasekcija button {
+  border: white 2px solid;
+  border-radius: 5px;
+  font-size: 17px;
+  background-color: #16df7e;
+  color: white;
+  padding: 10px 30px;
+}
+.osmasekcija button:hover {
+  background-color: rgb(47, 47, 212);
+  border: 2px solid #16df7e;
+  transition-duration: 0.5s;
 }
