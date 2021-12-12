@@ -36,7 +36,7 @@ header li {
 .prvasekcija {
   width: 100%;
   height: 78vh;
-  border: 1px solid black;
+  /*  border: 1px solid black;*/
   display: flex;
   justify-content: center;
 }
@@ -78,7 +78,7 @@ header li {
   margin-left: 50px;
 }
 .drugasekcija {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   width: 100%;
   height: 300px;
   display: flex;
@@ -102,7 +102,7 @@ h3 {
   color: #16df7e;
 }
 .trecasekcija {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   width: 100%;
   height: 80vh;
   display: flex;
@@ -138,7 +138,7 @@ h3 {
   margin-top: 10px;
 }
 .cetvrtasekcija {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   width: 100%;
   height: 30vh;
   display: flex;
@@ -158,12 +158,13 @@ h3 {
   align-items: center;
 }
 .petasekcija {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   width: 100%;
   height: 170vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(238, 235, 235);
 }
 .petasekcija h1,
 p {
@@ -181,8 +182,8 @@ p {
 .divkartica {
   width: 90%;
   height: 150vh;
-  border: 1px solid black;
-  background-color: burlywood;
+  /*border: 1px solid black;*/
+  /*background-color: burlywood;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -195,13 +196,14 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
+  background-color: white;
 }
 .divkartica div h3 {
   font-size: 25px;
 }
 .sestasekcija {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   width: 100%;
   height: 220vh;
   display: flex;
@@ -213,7 +215,7 @@ p {
   text-align: center;
 }
 .kategorije {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   width: 50%;
   height: 10vh;
 }
@@ -250,7 +252,7 @@ p {
   height: 250px;
 }
 .divzaslike {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   width: 85%;
   height: 170vh;
   display: flex;
@@ -278,7 +280,7 @@ p {
   height: 250px;
 }
 .divzaslike1 {
-  border: 1px solid green;
+  /*border: 1px solid green;*/
   width: 31.5%;
   height: 100%;
   margin: 10px;
@@ -289,7 +291,7 @@ p {
   margin-top: 20px;
 }
 .divzaslike2 {
-  border: 1px solid rosybrown;
+  /*border: 1px solid rosybrown;*/
   width: 31.5%;
   height: 100%;
   margin: 10px;
@@ -298,7 +300,7 @@ p {
   margin-top: 20px;
 }
 .divzaslike3 {
-  border: 1px solid peru;
+  /*border: 1px solid peru;*/
   width: 31.5%;
   height: 100%;
   margin: 10px;
@@ -312,7 +314,7 @@ p {
   height: 250px;
 }
 .sedmasekcija {
-  border: 1px solid brown;
+  /*border: 1px solid brown;*/
   width: 100%;
   height: 100vh;
   background-color: rgb(236, 235, 235);
@@ -320,7 +322,7 @@ p {
 .sedmasekcija h1 {
   text-align: center;
   font-size: 40px;
-  margin-top: 50px;
+  padding-top: 50px;
   color: rgb(104, 103, 103);
 }
 .sedmasekcija p {
@@ -328,7 +330,7 @@ p {
   margin: 20px;
 }
 .testimonials {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   width: 100%;
   height: 75vh;
   display: flex;
@@ -336,7 +338,7 @@ p {
 }
 .testimonials div {
   background-color: white;
-  border: 1px solid black;
+  /* border: 1px solid black;*/
   width: 300px;
   height: 400px;
   display: flex;
@@ -385,4 +387,66 @@ p {
   background-color: rgb(47, 47, 212);
   border: 2px solid #16df7e;
   transition-duration: 0.5s;
+}
+.devetasekcija {
+  /* border: 1px solid rgb(53, 13, 161);*/
+  width: 100%;
+  height: 130vh;
+  background-color: rgb(243, 242, 242);
+}
+.devetasekcija h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+  color: rgb(104, 103, 103);
+}
+.devetasekcija p {
+  font-size: 20px;
+  margin: 20px;
+}
+.teamdiv {
+  border: 1px solid red;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.teamdiv div {
+  border: 1px solid green;
+  width: 350px;
+  height: 550px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.teamdiv div img {
+  width: 300px;
+  height: 300px;
+}
+.teamdiv h3 {
+  font-size: 22px;
+  color: rgb(43, 42, 42);
+}
+.teamdiv h6 {
+  font-size: 15px;
+  color: rgb(104, 103, 103);
+  font-style: italic;
+}
+.teamdiv p {
+  color: rgb(104, 103, 103);
+  font-style: italic;
+}
+.ikonice {
+  display: flex;
+  flex-direction: row;
+}
+.ikonice .fab {
+  font-size: 20px;
+  margin: 5px;
+  color: rgb(104, 103, 103);
+}
+.ikonice .fab:hover {
+  color: #16df7e;
 }
