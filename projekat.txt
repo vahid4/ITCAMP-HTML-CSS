@@ -1,3 +1,0 @@
-estates.infobook.rs
-user:Vahid
-pass:vahid123
