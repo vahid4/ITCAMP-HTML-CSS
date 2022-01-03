@@ -36,6 +36,7 @@ switch (a) {
     console.log("Pogresan unos");
 }
 */
+/*
 a = parseInt(prompt("Unesite broj 0-100:"));
 switch (true) {
   case a >= 0 && a < 30:
@@ -50,3 +51,4 @@ switch (true) {
   default:
     console.log("Pogresan unos");
 }
+*/
