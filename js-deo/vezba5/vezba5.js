@@ -8,3 +8,20 @@
     console.log("Proizvod", i, "i", j, "je", i * j);
   }
 }*/
+//crtanje zvezdica
+/*sum = "";
+char = " *";
+for (i = 1; i < 11; i++) {
+  console.log((sum += char));
+}*/
+//zadatak koji proverava da li je string polindrom
+/*a = prompt("unesite neki string");
+c = "";
+for (i = a.length - 1; i >= 0; i--) {
+  c += a[i];
+}
+if (a === c) {
+  console.log("palindrom je");
+} else {
+  console.log("nije palindrom");
+}*/
