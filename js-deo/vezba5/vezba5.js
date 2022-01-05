@@ -27,10 +27,17 @@ if (a === c) {
 }*/
 
 //crtanje pravouglog trougla brojevima
-for (i = 1; i < 11; i++) {
+/*for (i = 1; i < 11; i++) {
   sum = "";
   for (j = 1; j <= i; j++) {
     sum += i;
   }
   console.log(sum);
+}*/
+//za domaci napraviti prog. koji ce izracunati faktorijal unetog broja
+sum = 1;
+a = parseInt(prompt("Unesite broj:"));
+for (i = 1; i <= a; i++) {
+  sum *= i;
 }
+console.log("Faktorijal broja", a, "je", sum);
