@@ -25,3 +25,12 @@ if (a === c) {
 } else {
   console.log("nije palindrom");
 }*/
+
+//crtanje pravouglog trougla brojevima
+for (i = 1; i < 11; i++) {
+  sum = "";
+  for (j = 1; j <= i; j++) {
+    sum += i;
+  }
+  console.log(sum);
+}
