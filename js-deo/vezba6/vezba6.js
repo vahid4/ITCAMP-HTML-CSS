@@ -6,7 +6,8 @@ sum = 1;
 for (i = a; i <= b; i++) {
   console.log(i ** 3);
 }*/
-a = parseInt(prompt("Unesite pocetnu vrednost:"));
+//zadatak- ispisati proste brojeve
+/*a = parseInt(prompt("Unesite pocetnu vrednost:"));
 b = parseInt(prompt("Unesite krajnju vrednost:"));
 
 for (i = a; i <= b; i++) {
@@ -18,5 +19,14 @@ for (i = a; i <= b; i++) {
   }
   if (delioci === 2) {
     console.log(i);
+  }
+}*/
+a = parseInt(prompt("Unesite prvi broj:"));
+b = parseInt(prompt("Unesite drugi broj"));
+for (i = a; i < 9000; i++) {
+  //console.log(i);
+  if (i % a === 0 && i % b === 0) {
+    console.log(i);
+    break;
   }
 }
