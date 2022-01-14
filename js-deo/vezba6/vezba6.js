@@ -21,7 +21,8 @@ for (i = a; i <= b; i++) {
     console.log(i);
   }
 }*/
-a = parseInt(prompt("Unesite prvi broj:"));
+//zadatak- NZD
+/*a = parseInt(prompt("Unesite prvi broj:"));
 b = parseInt(prompt("Unesite drugi broj"));
 for (i = a; i < 9000; i++) {
   //console.log(i);
@@ -29,4 +30,11 @@ for (i = a; i < 9000; i++) {
     console.log(i);
     break;
   }
+}*/
+a = parseInt(prompt("Koliko vas text ima karaktera:"));
+b = parseInt(prompt("Unesite karakter:"));
+sum = "";
+for (i = 0; i <= a; i++) {
+  sum += a;
 }
+console.log(sum);
