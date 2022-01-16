@@ -38,7 +38,7 @@ console.log("Zbir ocena je", sum);
 console.log("Srednja ocena je", sum / kolicina);
 */
 
-a = Math.round(Math.random() * 10);
+/*a = Math.round(Math.random() * 10);
 //console.log(Math.round(a));
 b = parseInt(prompt("Pogadjajte broj:"));
 while (b !== a) {
@@ -49,3 +49,23 @@ while (b !== a) {
   }
 }
 //b = parseInt(prompt("Pogadjajte ponovo broj:"));
+*/
+//Domaci zadatak- napraviti kalkulator
+let rezultat;
+prvibroj = parseInt(prompt("Unesite prvi broj:"));
+operacija = prompt("Unesite zeljenu operaciju:");
+drugibroj = parseInt(prompt("Unesite drugi broj:"));
+
+if (operacija === "+") {
+  rezultat = prvibroj + drugibroj;
+} else if (operacija === "-") {
+  rezultat = prvibroj - drugibroj;
+} else if (operacija === "*") {
+  rezultat = prvibroj * drugibroj;
+} else if (operacija === "/") {
+  rezultat = prvibroj / drugibroj;
+} else {
+  console.log("Uneli ste nepoznatu operaciju");
+}
+
+console.log(prvibroj, operacija, drugibroj, "=", rezultat);
