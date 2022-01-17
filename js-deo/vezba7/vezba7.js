@@ -51,21 +51,26 @@ while (b !== a) {
 //b = parseInt(prompt("Pogadjajte ponovo broj:"));
 */
 //Domaci zadatak- napraviti kalkulator
-let rezultat;
-prvibroj = parseInt(prompt("Unesite prvi broj:"));
-operacija = prompt("Unesite zeljenu operaciju:");
-drugibroj = parseInt(prompt("Unesite drugi broj:"));
+parseInt.rezultat;
 
-if (operacija === "+") {
-  rezultat = prvibroj + drugibroj;
-} else if (operacija === "-") {
-  rezultat = prvibroj - drugibroj;
-} else if (operacija === "*") {
-  rezultat = prvibroj * drugibroj;
-} else if (operacija === "/") {
-  rezultat = prvibroj / drugibroj;
-} else {
-  console.log("Uneli ste nepoznatu operaciju");
+operacija = prompt("Unesite zeljenu operaciju:");
+
+while (operacija !== "STOP") {
+  parseInt.rezultat;
+  prvibroj = parseInt(prompt("Unesite prvi broj:"));
+  drugibroj = parseInt(prompt("Unesite drugi broj:"));
+  if (operacija === "+") {
+    rezultat = prvibroj + drugibroj;
+  } else if (operacija === "-") {
+    rezultat = prvibroj - drugibroj;
+  } else if (operacija === "*") {
+    rezultat = prvibroj * drugibroj;
+  } else if (operacija === "/") {
+    rezultat = prvibroj / drugibroj;
+  } else {
+    console.log("Uneli ste nepoznatu operaciju");
+  }
+  operacija = prompt("Unesite zeljenu operaciju:");
 }
 
-console.log(prvibroj, operacija, drugibroj, "=", rezultat);
+console.log(rezultat);
