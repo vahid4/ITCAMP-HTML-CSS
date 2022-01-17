@@ -23,7 +23,7 @@ while (i <= broj) {
   }
   i++;
 }*/
-broj = prompt("Unesite broj:");
+/*broj = prompt("Unesite broj:");
 while (broj !== "STOP") {
   if (broj == 0) {
     console.log("ZERO");
@@ -33,4 +33,28 @@ while (broj !== "STOP") {
     console.log("NEGATIVAN");
   }
   broj = prompt("Unesite broj:");
+}*/
+//ispisati prestupne godine ako unesemoo pocetnu i krajnju
+/*
+pocetnagodina = parseInt(prompt("Unesite pocetnu godinu:"));
+krajnjagodina = parseInt(prompt("Unesite krajnja godinu:"));
+
+for (j = pocetnagodina; j <= krajnjagodina; j++) {
+  if (j % 4 === 0) {
+    console.log(j);
+  }
+}*/
+
+/*broj = prompt("Unesite broj");
+brojac = 1;
+faktorijal = 1;
+while (brojac <= broj) {
+  faktorijal *= brojac;
+  broj++;
 }
+console.log(broj);
+*/
+unos = prompt("Unesite string");
+novistring = unos.slice(1) + unos[0];
+
+console.log(novistring);
