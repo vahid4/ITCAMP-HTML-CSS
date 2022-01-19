@@ -54,7 +54,32 @@ while (brojac <= broj) {
 }
 console.log(broj);
 */
-unos = prompt("Unesite string");
-novistring = unos.slice(1) + unos[0];
 
+/*unos = prompt("Unesite string");
+novistring = unos.slice(1) + unos[0];
 console.log(novistring);
+*/
+
+/*unos = prompt("Unesit string");
+novi = "";
+for (i = 0; i < unos.length - 1; i++) {
+  if (i === 0) {
+    novi += unos[0].toUpperCase();
+  }
+
+  if (unos[i] === " ") {
+    novi += unos[i + 1].toUpperCase();
+    continue;
+  } else {
+    novi += unos[i + 1];
+  }
+}
+console.log(novi);
+*/
+/*
+unos = parseInt(prompt("Unesite broj minuta:"));
+sati = Math.floor(unos / 60);
+minuti = unos % 60;
+console.log("Sati:", sati);
+console.log("Minuti:", minuti);
+*/
