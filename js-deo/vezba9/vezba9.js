@@ -11,18 +11,24 @@ for (i = ar.lenght - 1; i >= 0; i--) {
 }
 console.log(ar[i]);
 */
-unos = parseInt(prompt("koliko zelis brojeva da uneses"));
+/*unos = parseInt(prompt("koliko zelis brojeva da uneses"));
 ar = [];
-//zbir = 0;
 for (i = 0; i < unos; i++) {
   brojevi = parseInt(prompt("UNesite element"));
-  // zbir += brojevi;
   ar[i] = brojevi;
 }
 console.log(ar);
-//console.log(zbir);
 zbir = 0;
 for (i = 0; i < ar.length; i++) {
   zbir += ar[i];
 }
 console.log(zbir);
+*/
+ar = [2, 12, 1, 7, 19, 74, 23, 4, 3];
+max = ar[0];
+for (i = 0; i < ar.length; i++) {
+  if (max < ar[i]) {
+    max = ar[i];
+  }
+}
+console.log(max);
