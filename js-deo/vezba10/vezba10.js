@@ -64,10 +64,11 @@ console.log(isti);
   console.log(el);
 }*/
 //------------------------------------
-svasta = [1, 2, true, undefined, "", false, null, 3, 4];
+svasta = [2, true, undefined, "", false, null, 3, 5];
 
-for (el of svasta) {
-  if (!svasta[el] === false) {
-  } else svasta.splice();
+for (i = 0; i < svasta.length; i++) {
+  if (Boolean(svasta[i]) != true) {
+    svasta.splice(i, 1);
+  }
 }
 console.log(svasta);
