@@ -34,11 +34,11 @@ voce = ["banana", "jabuka", "sljiva", "tresnja", "visnja"];
 console.log(voce);
 */
 
-/*a = voce.slice(1, 2);
+/*a = voce.slice(1,2);
 console.log(a);
 */
 //pronaci iste elemente dva niza
-isti = [];
+//isti = [];
 /*for (i = 0; i < voce.length; i++) {
   for (j = 0; j < povrce.length; i++) {
     if (povrce[i] === voce[i]) {
@@ -64,7 +64,7 @@ console.log(isti);
   console.log(el);
 }*/
 //------------------------------------
-svasta = [2, true, undefined, "", false, null, 3, 5];
+/*svasta = [2, true, undefined, "", false, null, 3, 5];
 
 for (i = 0; i < svasta.length; i++) {
   if (Boolean(svasta[i]) != true) {
@@ -72,3 +72,17 @@ for (i = 0; i < svasta.length; i++) {
   }
 }
 console.log(svasta);
+*/
+/*ar = [1, 2, 3, 1, 2];
+for (el of ar) {
+  if (el === 1) {
+    ar.splice(el, 1);
+  }
+}
+for (el of ar) {
+  if (el === 3) {
+    ar.splice(el, 1);
+  }
+}
+console.log(ar);
+*/
