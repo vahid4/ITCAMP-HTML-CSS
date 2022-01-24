@@ -73,16 +73,15 @@ for (i = 0; i < svasta.length; i++) {
 }
 console.log(svasta);
 */
-/*ar = [1, 2, 3, 1, 2];
+//--------------------------
+/*
+ar = [1, 2, 3, 1, 2];
+novi = [];
 for (el of ar) {
-  if (el === 1) {
-    ar.splice(el, 1);
+  if (el !== 2 && el !== 1) {
+    novi.push(el);
   }
 }
-for (el of ar) {
-  if (el === 3) {
-    ar.splice(el, 1);
-  }
-}
-console.log(ar);
+
+console.log(novi);
 */
