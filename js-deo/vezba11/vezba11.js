@@ -33,3 +33,21 @@ for (i = 0; i < data.length; i++) {
   }
 }
 */
+niz1 = [3, 21, 32, 36, 37, 56];
+niz2 = [3, 21, 32, 36, 37, 56];
+tacnost = true;
+if (niz1.length !== niz2.length) {
+  console.log("nisu isti");
+} else {
+  for (i = 0; i < niz1.length; i++) {
+    if (niz1[i] !== niz2[i]) {
+      tacnost = false;
+      break;
+    }
+  }
+}
+if (tacnost) {
+  console.log("isti su");
+} else {
+  console.log("nisu isti");
+}
