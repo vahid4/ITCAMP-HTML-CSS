@@ -33,6 +33,8 @@ for (i = 0; i < a.length; i++) {
 
 console.log("Razlika je", max - min);
 */
+
+/*
 b = 0;
 c = 0;
 a = [3, 6, 23, 0, 9, 44, 0, 14, 83, 22, 5, 1, 65, 77];
@@ -47,4 +49,15 @@ if (b > 0) {
   console.log("sadrzi");
 } else {
   console.log("ne sadrzi");
+}*/
+
+a = [10, 5032, 657, 1065, 39, 6, 783, -1500, , 7200, -7100];
+
+max = a[0];
+
+for (i = 0; i < a.length; i++) {
+  if (Math.abs(a[i]) > Math.abs(max)) {
+    max = a[i];
+  }
 }
+console.log(max);
