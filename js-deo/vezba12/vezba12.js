@@ -50,7 +50,8 @@ if (b > 0) {
 } else {
   console.log("ne sadrzi");
 }*/
-
+//---------------------------------------
+/*
 a = [10, 5032, 657, 1065, 39, 6, 783, -1500, , 7200, -7100];
 
 max = a[0];
@@ -61,3 +62,17 @@ for (i = 0; i < a.length; i++) {
   }
 }
 console.log(max);
+*/
+
+a = [10, 5032, 657, 1065, 39, 6, 783, -1500, , 7200, -7100];
+min = a[0];
+min2 = a[0];
+for (i = 0; i < a.length; i++) {
+  if (min > a[i]) {
+    min = a[i];
+  } else if (min2 > min) {
+    min2 = min;
+  }
+}
+console.log("Najmanji je:", min);
+console.log("Drugi najmanji je", min2);
