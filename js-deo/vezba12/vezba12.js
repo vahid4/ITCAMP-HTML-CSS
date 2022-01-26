@@ -20,8 +20,8 @@ for (i = 0; i < a.length; i++) {
 console.log(a);
 */
 
-a = [3, 6, 23, 0, 9, 44, 0, 14, 83, 22, 5, 1];
-max = a[0];
+//a = [3, 6, 23, 0, 9, 44, 0, 14, 83, 22, 5, 1];
+/*max = a[0];
 min = a[0];
 for (i = 0; i < a.length; i++) {
   if (max < a[i]) {
@@ -32,3 +32,19 @@ for (i = 0; i < a.length; i++) {
 }
 
 console.log("Razlika je", max - min);
+*/
+b = 0;
+c = 0;
+a = [3, 6, 23, 0, 9, 44, 0, 14, 83, 22, 5, 1, 65, 77];
+for (i = 0; i < a.length; i++) {
+  if (a[i] === 65 || a[i] === 77) {
+    b++;
+  } else {
+    c++;
+  }
+}
+if (b > 0) {
+  console.log("sadrzi");
+} else {
+  console.log("ne sadrzi");
+}
