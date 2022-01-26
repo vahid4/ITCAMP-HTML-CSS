@@ -33,6 +33,8 @@ for (i = 0; i < data.length; i++) {
   }
 }
 */
+//----------------------------------------------
+/*
 niz1 = [3, 21, 32, 36, 37, 56];
 niz2 = [3, 21, 32, 36, 37, 56];
 tacnost = true;
@@ -51,3 +53,22 @@ if (tacnost) {
 } else {
   console.log("nisu isti");
 }
+*/
+
+niz = [24, 63, 74, 24, 54, 17, 96, 32, 17, 74];
+novi = [];
+console.log(niz);
+for (i = 0; i < niz.length; i++) {
+  for (j = 0; j < niz.length; j++) {
+    //if (i !== j) {
+    if (niz[i] == niz[j]) {
+      //novi += niz[i];
+      novi.push(niz[i]);
+    }
+  }
+}
+//}
+
+console.log(novi);
+//a = novi.join(",");
+//console.log(a);
