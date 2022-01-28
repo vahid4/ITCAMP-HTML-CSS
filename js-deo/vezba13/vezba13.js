@@ -19,3 +19,23 @@ zbir();
 }
 sum(5, 7);
 */
+//-------------------------------
+/*function reverse() {
+  a = prompt("Unesite string");
+  novi = "";
+  for (i = a.length - 1; i >= 0; i--) {
+    novi += a[i];
+  }
+  console.log(novi);
+}
+reverse();
+*/
+//--------------------
+/*function velika(str) {
+  str.toUpperCase();
+
+  console.log(str);
+  return str;
+}
+velika("vahid");
+*/
