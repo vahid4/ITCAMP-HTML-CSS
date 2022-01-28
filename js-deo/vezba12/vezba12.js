@@ -64,7 +64,7 @@ for (i = 0; i < a.length; i++) {
 console.log(max);
 */
 
-a = [10, 5032, 657, 1065, 39, 6, 783, -1500, , 7200, -7100];
+/*a = [10, 5032, 657, 1065, 39, 6, 783, -1500, , 7200, -7100];
 min = a[0];
 min2 = a[0];
 for (i = 0; i < a.length; i++) {
@@ -76,3 +76,25 @@ for (i = 0; i < a.length; i++) {
 }
 console.log("Najmanji je:", min);
 console.log("Drugi najmanji je", min2);
+*/
+
+//domaciiiiiiiiiiii------------------------------------------
+niz = [1, 2, 3, 0, 5, 9, 1, 0, 3, 0, 1, 0, 5, 8, 7, 0, 2, 4];
+console.log(niz);
+for (i = 0; i < niz.length; i++) {
+  if (niz[i] === 0) {
+    niz.splice(i, 1);
+    niz.push(0);
+  }
+  if (niz[i] === 1) {
+    niz.splice(i, 1);
+    niz.unshift(1);
+  }
+}
+console.log(niz);
+/*for (j = 0; j < niz.length; j++) {
+  if (niz[j] === 1) {
+    niz.splice(j, 1);
+    niz.unshift(1);
+  }
+}*/
