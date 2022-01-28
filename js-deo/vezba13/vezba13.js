@@ -40,9 +40,18 @@ reverse();
 velika("vahid");
 */
 //----------------------------
-function repeatStr(n, s) {
+/*function repeatStr(n, s) {
   for (i = 0; i <= n; i++) {
     console.log(s);
   }
 }
 repeatStr(6, "vahid");
+*/
+function dane(bool) {
+  if (bool === true) {
+    console.log("yes");
+  } else if (bool === false) {
+    console.log("no");
+  }
+}
+dane(true);
