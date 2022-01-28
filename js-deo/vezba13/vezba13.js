@@ -39,3 +39,10 @@ reverse();
 }
 velika("vahid");
 */
+//----------------------------
+function repeatStr(n, s) {
+  for (i = 0; i <= n; i++) {
+    console.log(s);
+  }
+}
+repeatStr(6, "vahid");
