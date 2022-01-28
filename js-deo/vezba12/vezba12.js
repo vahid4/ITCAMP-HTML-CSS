@@ -92,9 +92,4 @@ for (i = 0; i < niz.length; i++) {
   }
 }
 console.log(niz);
-/*for (j = 0; j < niz.length; j++) {
-  if (niz[j] === 1) {
-    niz.splice(j, 1);
-    niz.unshift(1);
-  }
-}*/
+
