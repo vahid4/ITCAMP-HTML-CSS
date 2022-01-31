@@ -47,7 +47,7 @@ velika("vahid");
 }
 repeatStr(6, "vahid");
 */
-function dane(bool) {
+/*function dane(bool) {
   if (bool === true) {
     console.log("yes");
   } else if (bool === false) {
@@ -55,3 +55,17 @@ function dane(bool) {
   }
 }
 dane(true);
+*/
+godineoca = 50;
+godinesina = 30;
+brojgodina = 0;
+if (godineoca === godinesina * 2) {
+  brojgodina = 0;
+  console.log("Otac je trenutno duplo stariji od sina");
+} else if (godineoca > godinesina * 2) {
+  brojgodina = godineoca - godinesina * 2;
+  console.log("Otac ce biti duplo stariji od sina za", brojgodina, "godina");
+} else if (godineoca < godinesina * 2) {
+  brojgodina = 2 * godinesina - godineoca;
+  console.log("bilo je  pre ", brojgodina, "godina");
+}
