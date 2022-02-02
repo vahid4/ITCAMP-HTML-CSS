@@ -43,3 +43,9 @@ if (operacija === "+") {
   console.log(prvi / drugi);
 }
 */
+niz = ["Keep", "Remove", "Keep", "Remove", "Keep", "Remove", "Keep", "Remove"];
+novi = [];
+for (i = 0; i < niz.length; i += 2) {
+  novi.push(niz[i]);
+}
+console.log(novi);
