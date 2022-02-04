@@ -34,7 +34,7 @@ console.log(niz);
 }
 abbrevName("Vahid Gasanin");
 */
-function enough(cap, on, wait) {
+/*function enough(cap, on, wait) {
   a = 0;
 
   if (cap - (on + wait) < 0) {
@@ -45,3 +45,25 @@ function enough(cap, on, wait) {
   console.log(a);
 }
 enough(100, 60, 50);
+*/
+//---------------------------
+/*function litres(time) {
+  novi = time * 0.5;
+
+  return Math.floor(novi);
+}*/
+//-------------------
+/*function rentalCarCost(d) {
+  a = d * 40;
+  nova = 0;
+  if (d < 3) {
+    nova = a;
+  }
+  if (d >= 3) {
+    nova = a - 20;
+  }
+  if (d >= 7) {
+    nova = a - 50;
+  }
+  return nova;
+}*/
