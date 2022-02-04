@@ -34,3 +34,14 @@ console.log(niz);
 }
 abbrevName("Vahid Gasanin");
 */
+function enough(cap, on, wait) {
+  a = 0;
+
+  if (cap - (on + wait) < 0) {
+    a = cap - (on + wait);
+  } else if (cap - (on + wait) > 0) {
+    a = 0;
+  }
+  console.log(a);
+}
+enough(100, 60, 50);
