@@ -67,3 +67,18 @@ enough(100, 60, 50);
   }
   return nova;
 }*/
+//---------------------
+/*const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  gorivo = fuelLeft * mpg;
+  if (distanceToPump <= gorivo) {
+    return true;
+  } else return false;
+};*/
+//----------------------
+/*function getAverage(marks) {
+  a = 0;
+  for (i = 0; i < marks.length; i++) {
+    a += marks[i];
+  }
+  return Math.floor(a / i);
+}*/
