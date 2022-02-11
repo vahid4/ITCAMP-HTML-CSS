@@ -82,3 +82,16 @@ enough(100, 60, 50);
   }
   return Math.floor(a / i);
 }*/
+
+function findShort(s) {
+  kratki = [0];
+  s = s.split(" ");
+  for (el of s) {
+    if (el.length < kratki.length) {
+      kratki = s[el];
+    }
+  }
+
+  return kratki.length;
+}
+findShort();
