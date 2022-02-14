@@ -35,7 +35,7 @@ for (i = 0; i < library.length; i++) {
 //pitanje();
 console.log(pitanje());
 */
-const car = {
+/*const car = {
   name: "Audi",
   model: "A7",
 };
@@ -44,3 +44,56 @@ const keys = Object.keys(car);
 for (let key of keys) {
   console.log(keys[key]);
 }
+*/
+/*biraj = prompt("Biraj bmw ili golf da ga izbacis :");
+function biraj_auto(biraj) {
+  var golf = {
+    ime: "vw golf 7",
+    godina: "2013",
+    boja: "crna",
+    oprema: "r line",
+    pogon: "prednji",
+    broj_vrata: "4/5",
+  };
+
+  var bmw = {
+    ime: "bmw 5",
+    godina: "2015",
+    boja: "bijela",
+    oprema: "m paket",
+    pogon: "zadnji",
+    broj_vrata: "4/5",
+  };
+  if (biraj === "golf") {
+    console.log(bmw);
+  } else if (biraj === "bmw") {
+    console.log(golf);
+  }
+}
+biraj_auto(biraj);
+*/
+/*function distinct(a) {
+  for (i = 0; i < a.length; i++) {
+    for (j = 0; j < a.length; j++) {
+      if (a[j] === a[i]) {
+        a.splice(i, 1);
+      }
+    }
+  }
+  console.log(a);
+}
+distinct([1, 1, 2]);
+*/
+function pyramid(balls) {
+  red = 0;
+  while (balls > red) {
+    balls -= red;
+    red++;
+  }
+  if (red === 1) {
+    return red;
+  }
+
+  return red - 1;
+}
+pyramid();
