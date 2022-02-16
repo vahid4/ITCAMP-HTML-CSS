@@ -108,3 +108,76 @@ pyramid();
   vrijeme=broj_kuvanja*kuvanje;
   return vrijeme;
 }*/
+/*arr = [1, 1, 2, 1, 1];
+console.log(arr);
+novi = [];
+function findUniq(arr) {
+  for (var i = 0; i < arr.length; i++) {
+    for (var j = 0; j < arr.length; j++) {
+      if (arr[i] !== arr[j]) {
+        novi = arr.push(i);
+      }
+    }
+  }
+  console.log(novi);
+}
+findUniq([1, 1, 2, 1, 1]);
+*/
+/*var student = {
+  name: "Vahid",
+  sclass: "IV",
+  rollno: 12,
+};
+//console.log(student);
+var keys = Object.keys(student);
+console.log(keys.join(","));
+/*for (let key of keys) {
+  console.log(keys[key]);
+}*/
+//-----------------
+/*var student = {
+  name: "Vahid",
+  sclass: "IV",
+  rollno: 12,
+};
+var keys = Object.keys(student);
+console.log(keys.length);
+*/
+
+var student = [
+  {
+    name: "Aldin",
+    height: 187,
+    gender: "male",
+    age: 19,
+  },
+  {
+    name: "Vahid",
+    height: 187,
+    gender: "female",
+    age: 15,
+  },
+  {
+    name: "Medzid",
+    height: 187,
+    gender: "male",
+    age: 13,
+  },
+  {
+    name: "Almir",
+    height: 187,
+    gender: "male",
+    age: 31,
+  },
+];
+//console.log(student);
+function punoletni(student) {
+  novi = [];
+  for (el of student) {
+    if (el.age > 18) {
+      novi.push(el);
+    }
+  }
+  return novi;
+}
+console.log(punoletni(student));
