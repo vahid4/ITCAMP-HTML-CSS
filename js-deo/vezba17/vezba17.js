@@ -144,7 +144,7 @@ var keys = Object.keys(student);
 console.log(keys.length);
 */
 
-var student = [
+/*var student = [
   {
     name: "Aldin",
     height: 187,
@@ -181,3 +181,14 @@ function punoletni(student) {
   return novi;
 }
 console.log(punoletni(student));
+*/
+var student = {
+  name: "Vahid",
+  sclass: "IV",
+  rollno: 12,
+};
+
+function parovi(student) {
+  for ([key, value] of Object.entries(student)) console.log(`${key}:${value}`);
+}
+parovi();
