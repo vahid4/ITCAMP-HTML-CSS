@@ -45,6 +45,7 @@ for (let key of keys) {
   console.log(keys[key]);
 }
 */
+//-------------------------
 /*biraj = prompt("Biraj bmw ili golf da ga izbacis :");
 function biraj_auto(biraj) {
   var golf = {
@@ -72,6 +73,7 @@ function biraj_auto(biraj) {
 }
 biraj_auto(biraj);
 */
+//-----------------------------------
 /*function distinct(a) {
   for (i = 0; i < a.length; i++) {
     for (j = 0; j < a.length; j++) {
@@ -84,7 +86,8 @@ biraj_auto(biraj);
 }
 distinct([1, 1, 2]);
 */
-function pyramid(balls) {
+//-----------------------------------
+/*function pyramid(balls) {
   red = 0;
   while (balls > red) {
     balls -= red;
@@ -97,3 +100,11 @@ function pyramid(balls) {
   return red - 1;
 }
 pyramid();
+/*
+//----------------------------
+/*function cookingTime(eggs) {
+  const kuvanje=5;
+  broj_kuvanja=Math.ceil(eggs/8);
+  vrijeme=broj_kuvanja*kuvanje;
+  return vrijeme;
+}*/
