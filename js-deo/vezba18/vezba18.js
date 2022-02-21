@@ -114,13 +114,39 @@ console.log(
   ])
 );
 */
-function a(arr) {
+/*function a(arr) {
   return arr.map((el) => {
     if (el.age > 18) {
       return el.name + " moze u bioskop";
     } else {
       return el.name + " ne moze u bioskop";
     }
+  });
+}
+console.log(
+  a([
+    {
+      name: "Vahid",
+      age: 80,
+    },
+    {
+      name: "DAris",
+      age: 80,
+    },
+    {
+      name: "Medzid",
+      age: 8,
+    },
+    {
+      name: "Zakir",
+      age: 13,
+    },
+  ])
+);
+*/
+function a(arr) {
+  return arr.map((el) => {
+    return "<h1>" + el.name + "</h1>" + "<h2>" + el.age + "</h2>";
   });
 }
 console.log(
