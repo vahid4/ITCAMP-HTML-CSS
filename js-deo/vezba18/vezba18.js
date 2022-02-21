@@ -170,7 +170,7 @@ console.log(
   ])
 );
 */
-str = "Geogre Raymond Richard Martin";
+/*str = "Geogre Raymond Richard Martin";
 str = str.split(" ");
 console.log(str);
 function a(arr) {
@@ -180,3 +180,13 @@ function a(arr) {
   });
 }
 console.log(a(str).join("."));
+*/
+numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+function a(b) {
+  return b.map((el) => {
+    if (el % 2 === 0) {
+      return true;
+    } else return false;
+  });
+}
+console.log(a(numbers));
