@@ -1,4 +1,4 @@
-const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+/*const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];*/
 /*function a(b) {
   console.log(Math.pow(b, 2));
 }
@@ -38,7 +38,7 @@ console.log(d);
 s.forEach(a);
 */
 
-const arr = [NaN, 0, 15, false, -22, "", undefined, 47, null];
+/*const arr = [NaN, 0, 15, false, -22, "", undefined, 47, null];
 novi = [];
 function a(b) {
   if (Boolean(b) === false) {
@@ -46,4 +46,100 @@ function a(b) {
   }
 }
 arr.forEach(a);
-console.log(novi);
+console.log(novi);*/
+
+/*a = [1, 2, 3, 4];
+const b = a.map((el, i) => {
+  return el + i;
+});
+console.log(b);
+*/
+/*const numbers = [45, 4, 25, 9, 16, 7];
+const b = numbers.map((number) => {
+  return number ** 2;
+});
+console.log(b);
+*/
+/*const numbers = [2, 5, 100, 200];
+const b = numbers.map((el) => {
+  return el * 2;
+});
+console.log(b);
+*/
+/*const numbers = [2, 5, 100, 200];
+novi = [];
+function stringuj(arr) {
+  novi=arr.map((el))=>{
+return el.toString();
+  }
+  
+}
+console.log(numbers.map(numbers));
+*/
+
+//niz = ["JOhn", "jacOBS", "JinGleHeimaer", "SCHMIDT"];
+
+/*function ispravi(arr) {
+  return arr.map((el) => {
+    el = el.LowerCase();
+    el = el[0].toUpperCase() + el.slice(1);
+    return el;
+  });
+}
+console.log(ispravi(["JOhn", "jacOBS", "JinGleHeimaer", "SCHMIDT"]));
+*/
+/*function a(arr) {
+  return arr.map((el) => {
+    return el.name;
+  });
+}
+console.log(
+  a([
+    {
+      name: "Vahid",
+      age: 80,
+    },
+    {
+      name: "DAris",
+      age: 80,
+    },
+    {
+      name: "Medzid",
+      age: 80,
+    },
+    {
+      name: "Zakir",
+      age: 80,
+    },
+  ])
+);
+*/
+function a(arr) {
+  return arr.map((el) => {
+    if (el.age > 18) {
+      return el.name + " moze u bioskop";
+    } else {
+      return el.name + " ne moze u bioskop";
+    }
+  });
+}
+console.log(
+  a([
+    {
+      name: "Vahid",
+      age: 80,
+    },
+    {
+      name: "DAris",
+      age: 80,
+    },
+    {
+      name: "Medzid",
+      age: 8,
+    },
+    {
+      name: "Zakir",
+      age: 13,
+    },
+  ])
+);
