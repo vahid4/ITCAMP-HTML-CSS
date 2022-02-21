@@ -144,7 +144,7 @@ console.log(
   ])
 );
 */
-function a(arr) {
+/*function a(arr) {
   return arr.map((el) => {
     return "<h1>" + el.name + "</h1>" + "<h2>" + el.age + "</h2>";
   });
@@ -169,3 +169,14 @@ console.log(
     },
   ])
 );
+*/
+str = "Geogre Raymond Richard Martin";
+str = str.split(" ");
+console.log(str);
+function a(arr) {
+  return arr.map((el) => {
+    el = el[0];
+    return el;
+  });
+}
+console.log(a(str).join("."));
