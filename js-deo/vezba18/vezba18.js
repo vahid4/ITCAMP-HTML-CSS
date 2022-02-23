@@ -181,7 +181,7 @@ function a(arr) {
 }
 console.log(a(str).join("."));
 */
-numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+/*numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
 function a(b) {
   return b.map((el) => {
     if (el % 2 === 0) {
@@ -190,3 +190,19 @@ function a(b) {
   });
 }
 console.log(a(numbers));
+*/
+niz = [1, 2, 3, 4];
+novi = [];
+for (i = 1; i < niz.length; i += 2) {
+  //console.log(niz[i]);
+  novi = [niz[1] * 2, niz[i] * 2];
+}
+dodaj = [];
+for (i = 0; i < niz.length; i++) {
+  if (i % 2 == 0) {
+    //console.log(niz[i]);
+    dodaj = niz.push(niz[i] * 3);
+  }
+}
+//console.log(novi);
+console.log(dodaj);
