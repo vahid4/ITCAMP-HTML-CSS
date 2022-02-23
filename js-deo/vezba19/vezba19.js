@@ -89,9 +89,15 @@ console.log(
   ])
 );
 */
-function damir(numbers) {
+/*function damir(numbers) {
   return numbers.filter((el, i) => {
     return i % 2 == 0;
   });
 }
 console.log(damir(["dog", "wolf", "by", "family", "eaten", "camping"]));
+*/
+numbers = [45, 19, 74, 82, 14, 17, 16, 30, 35, 62];
+filtrirani = numbers.every((el) => {
+  return el > 18;
+});
+console.log(filtrirani);
