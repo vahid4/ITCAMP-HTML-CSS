@@ -24,7 +24,7 @@ console.log(damir([3, 6, 8, 2]));
 }
 console.log(damir(["dog", "wolf", "by", "family", "eaten", "camping"]));
 */
-function Iluminati(arr) {
+/*function Iluminati(arr) {
   return arr.filter((el) => {
     return el.member;
   });
@@ -53,3 +53,45 @@ console.log(
     },
   ])
 );
+*/
+/*function Iluminati(arr) {
+  return arr.filter((el) => {
+    return el.age > 18;
+  });
+}
+console.log(
+  Iluminati([
+    {
+      name: "Damir",
+      member: true,
+      age: 69,
+    },
+    {
+      name: "tito",
+      member: false,
+      age: 14,
+    },
+    {
+      name: "salko",
+      member: false,
+      age: 39,
+    },
+    {
+      name: "amin",
+      member: true,
+      age: 32,
+    },
+    {
+      name: "dado",
+      member: false,
+      age: 15,
+    },
+  ])
+);
+*/
+function damir(numbers) {
+  return numbers.filter((el, i) => {
+    return i % 2 == 0;
+  });
+}
+console.log(damir(["dog", "wolf", "by", "family", "eaten", "camping"]));
