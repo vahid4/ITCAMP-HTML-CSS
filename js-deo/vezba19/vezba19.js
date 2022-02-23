@@ -17,9 +17,39 @@ console.log(filtrirani);
 }
 console.log(damir([3, 6, 8, 2]));
 */
-function damir(numbers) {
+/*function damir(numbers) {
   return numbers.filter((el) => {
     return el.length <= 5;
   });
 }
 console.log(damir(["dog", "wolf", "by", "family", "eaten", "camping"]));
+*/
+function Iluminati(arr) {
+  return arr.filter((el) => {
+    return el.member;
+  });
+}
+console.log(
+  Iluminati([
+    {
+      name: "Damir",
+      member: true,
+    },
+    {
+      name: "tito",
+      member: false,
+    },
+    {
+      name: "salko",
+      member: false,
+    },
+    {
+      name: "amin",
+      member: true,
+    },
+    {
+      name: "dado",
+      member: false,
+    },
+  ])
+);
