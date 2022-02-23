@@ -10,9 +10,16 @@ filtrirani = numbers.filter((el) => {
 });
 console.log(filtrirani);
 */
-function damir(numbers) {
+/*function damir(numbers) {
   return numbers.filter((el) => {
     return el >= 5;
   });
 }
 console.log(damir([3, 6, 8, 2]));
+*/
+function damir(numbers) {
+  return numbers.filter((el) => {
+    return el.length <= 5;
+  });
+}
+console.log(damir(["dog", "wolf", "by", "family", "eaten", "camping"]));
