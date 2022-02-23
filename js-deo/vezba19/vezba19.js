@@ -96,8 +96,52 @@ console.log(
 }
 console.log(damir(["dog", "wolf", "by", "family", "eaten", "camping"]));
 */
-numbers = [45, 19, 74, 82, 14, 17, 16, 30, 35, 62];
+/*numbers = [45, 19, 74, 82, 14, 17, 16, 30, 35, 62];
 filtrirani = numbers.every((el) => {
   return el > 18;
 });
 console.log(filtrirani);
+*/
+/*numbers = [44, 18, 74, 82, 14, 120, 16, 30, 36, 62];
+filtrirani = numbers.every((el) => {
+  return el % 2 === 0;
+});
+console.log(filtrirani);
+*/
+
+/*function damir(numbers) {
+  return numbers.filter((el) => {
+    return el.length <= 5;
+  });
+}
+console.log(damir(["dog", "wolf", "by", "family", "eaten", "camping"]));
+*/
+function Iluminati(arr) {
+  return arr.every((el) => {
+    return el.member;
+  });
+}
+console.log(
+  Iluminati([
+    {
+      name: "Damir",
+      member: true,
+    },
+    {
+      name: "tito",
+      member: true,
+    },
+    {
+      name: "salko",
+      member: true,
+    },
+    {
+      name: "amin",
+      member: true,
+    },
+    {
+      name: "dado",
+      member: true,
+    },
+  ])
+);
