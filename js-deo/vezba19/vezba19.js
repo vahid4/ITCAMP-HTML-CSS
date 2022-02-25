@@ -146,8 +146,9 @@ console.log(
   ])
 );
 */
-numbers = [14, 13, 15, 17, 9, 4, 8];
+/*numbers = [14, 13, 15, 17, 9, 4, 8];
 filtrirani = numbers.some((el) => {
   return el % 2 === 0;
 });
 console.log(filtrirani);
+*/
