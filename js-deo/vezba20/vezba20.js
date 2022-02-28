@@ -95,3 +95,28 @@ function shifter(s) {
 }
 shifter(s);
 */
+
+/*function vaporcode(string) {
+  a = "";
+  for (i = 0; i < string.length; i++) {
+    const s = string[i];
+    if (s !== " ") {
+      const u = s.toUpperCase();
+      a += u + "  ";
+    }
+  }
+
+  return a.trim();
+}*/
+
+function spongeMeme(sentence) {
+  result = "";
+  for (i = 0; i < sentence.length; i++) {
+    if (i % 2 === 0) {
+      result += sentence[i].toUpperCase();
+    } else {
+      result += sentence[i].toLowerCase();
+    }
+  }
+  return result;
+}
