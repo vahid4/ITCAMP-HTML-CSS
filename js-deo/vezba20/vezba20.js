@@ -121,7 +121,7 @@ shifter(s);
   return result;
 }*/
 
-function solve(s) {
+/*function solve(s) {
   u = 0;
   l = 0;
   for (i = 0; i < s.length; i++) {
@@ -138,4 +138,11 @@ function solve(s) {
   } else {
     return s.toLowerCase();
   }
+}
+*/
+
+function toTime(seconds) {
+  hours = Math.floor(seconds / 3600);
+  minutes = Math.floor((seconds - hours * 3600) / 60);
+  return hours + " hour(s) and " + minutes + " minute(s)";
 }
