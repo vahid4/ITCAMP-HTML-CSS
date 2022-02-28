@@ -109,7 +109,7 @@ shifter(s);
   return a.trim();
 }*/
 
-function spongeMeme(sentence) {
+/*function spongeMeme(sentence) {
   result = "";
   for (i = 0; i < sentence.length; i++) {
     if (i % 2 === 0) {
@@ -119,4 +119,23 @@ function spongeMeme(sentence) {
     }
   }
   return result;
+}*/
+
+function solve(s) {
+  u = 0;
+  l = 0;
+  for (i = 0; i < s.length; i++) {
+    if (s[i] === s[i].toUpperCase()) {
+      u++;
+    } else {
+      l++;
+    }
+  }
+  if (u > l) {
+    return s.toUpperCase();
+  } else if (u < l) {
+    return s.toLowerCase();
+  } else {
+    return s.toLowerCase();
+  }
 }
