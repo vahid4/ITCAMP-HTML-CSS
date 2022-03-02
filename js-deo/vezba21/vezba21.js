@@ -15,12 +15,15 @@
 }*/
 
 /*function consecutiveOnes(nums) {
-  nums=nums.join("");
-  nums=nums.split("0");
-  var max=0;
+   var result=0
+  var counter=0
   for(i=0; i<nums.length; i++){
-    if(nums[i]>max){
-      max=nums[i].length
-    }
+    if(nums[i]===1){
+      counter++
+    }else {
+      result=Math.max(counter, result);
+    counter=0
+      }
   }
-  return max*/
+  return Math.max(counter, result)
+};*/
