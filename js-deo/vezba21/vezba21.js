@@ -13,3 +13,14 @@
     return true;
   } else return false;
 }*/
+
+/*function consecutiveOnes(nums) {
+  nums=nums.join("");
+  nums=nums.split("0");
+  var max=0;
+  for(i=0; i<nums.length; i++){
+    if(nums[i]>max){
+      max=nums[i].length
+    }
+  }
+  return max*/
