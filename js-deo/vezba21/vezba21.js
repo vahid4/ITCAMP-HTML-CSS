@@ -27,3 +27,19 @@
   }
   return Math.max(counter, result)
 };*/
+
+/*function vaporcode(string) {
+  a = "";
+  for (i = 0; i < string.length; i++) {
+    const s = string[i];
+    if (s !== " ") {
+      const u = s.toUpperCase();
+      a += u + "  ";
+    }
+  }
+
+  return a.trim();
+}*/
+//-------------------------------------------
+//02.03.2022
+//stack

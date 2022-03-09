@@ -201,7 +201,7 @@ dodaj = [];
 for (i = 0; i < niz.length; i++) {
   if (i % 2 == 0) {
     //console.log(niz[i]);
-    dodaj = niz.push(niz[i] * 3);
+    dodaj = niz.push(niz[i]);
   }
 }
 //console.log(novi);
