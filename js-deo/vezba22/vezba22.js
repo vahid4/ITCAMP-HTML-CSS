@@ -13,12 +13,16 @@ console.log("vvvvvvvvvvvvvvvvvvvv");
 */
 novi = [];
 async function GetData() {
-  const response = await fetch("https://jsonplaceholder.typicode.com/users");
-  const responseJson = await response.json();
-  console.log(responseJson);
-  for (i = 0; i < responseJson.length; i++) {
-    novi.push(responseJson[i].name);
+  try {
+    const response = await fetch("https://jsonplaceholder.typicode.com/users");
+    const responseJson = await response.json();
+    console.log(responseJson);
+    for (i = 0; i < responseJson.length; i++) {
+      novi.push(responseJson[i].name);
+    }
+    console.log(novi);
+  } catch (err) {
+    console.log(err);
   }
-  console.log(novi);
 }
 GetData();
