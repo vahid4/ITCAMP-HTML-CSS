@@ -11,7 +11,7 @@ async function GetData() {
 GetData();
 console.log("vvvvvvvvvvvvvvvvvvvv");
 */
-novi = [];
+/*novi = [];
 async function GetData() {
   try {
     const response = await fetch("https://jsonplaceholder.typicode.com/users");
@@ -26,3 +26,4 @@ async function GetData() {
   }
 }
 GetData();
+*/
