@@ -90,7 +90,7 @@ GetData();
 //sad.classList.add("klasa");
 //sad.classList.remove("klasa");
 
-function klik() {
+/*function klik() {
   opa = document.getElementById("tri");
   // opa.classList.add("naslovKlasa");
   if (opa.classList.contains("naslovKlasa")) {
@@ -99,7 +99,10 @@ function klik() {
     opa.classList.add("naslovKlasa");
   }
   console.log(opa);
-}
+}*/
+//drugi nacin
+//opa.classList.toggle("naslovKlasa")
+
 /*function dugme() {
   novo = document.getElementById("dva");
 
