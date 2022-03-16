@@ -114,3 +114,30 @@ GetData();
   console.log("kliknuo si ga");
 }
 */
+function dugme() {
+  async function GetData() {
+    novi = [];
+    main = document.getElementById("main");
+    try {
+      const response = await fetch(
+        "https://jsonplaceholder.typicode.com/users"
+      );
+      const responseJson = await response.json();
+      console.log(responseJson);
+      for (i = 0; i < responseJson.length; i++) {
+        novi.push(responseJson[i].name);
+      }
+      for (i = 0; i < novi.length; i++) {
+        const noviel = document.createElement("p");
+        noviel.innerText = novi[i];
+        main.appendChild(noviel);
+      }
+      console.log(novi);
+    } catch (err) {
+      console.log(err);
+    }
+  }
+  GetData();
+}
+
+//vezbanje
