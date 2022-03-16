@@ -63,7 +63,7 @@ GetData();
 GetData();
 */
 
-async function GetData() {
+/*async function GetData() {
   novi = [];
   main = document.getElementById("main");
   try {
@@ -84,3 +84,12 @@ async function GetData() {
   }
 }
 GetData();
+*/
+//sad = document.getElementById("main");
+//console.log(sad);
+//sad.classList.add("klasa");
+//sad.classList.remove("klasa");
+
+function klik() {
+  console.log("klikces maliiiiii");
+}
