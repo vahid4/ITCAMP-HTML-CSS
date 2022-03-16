@@ -91,5 +91,23 @@ GetData();
 //sad.classList.remove("klasa");
 
 function klik() {
-  console.log("klikces maliiiiii");
+  opa = document.getElementById("main");
+  opa.classList.add("naslovKlasa");
+  if (opa.classList.contains("novaKlasa")) {
+    opa.classList.remove("novaKlasa");
+  } else {
+    opa.classList.contains("novaKlasa");
+  }
+  console.log(opa);
 }
+/*function dugme() {
+  novo = document.getElementById("dva");
+
+  if (novo.style.backgroundColor == "blue") {
+    novo.style.backgroundColor = "gray";
+  } else {
+    novo.style.backgroundColor = "blue";
+  }
+  console.log("kliknuo si ga");
+}
+*/
