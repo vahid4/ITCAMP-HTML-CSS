@@ -91,12 +91,12 @@ GetData();
 //sad.classList.remove("klasa");
 
 function klik() {
-  opa = document.getElementById("main");
-  opa.classList.add("naslovKlasa");
-  if (opa.classList.contains("novaKlasa")) {
-    opa.classList.remove("novaKlasa");
+  opa = document.getElementById("tri");
+  // opa.classList.add("naslovKlasa");
+  if (opa.classList.contains("naslovKlasa")) {
+    opa.classList.remove("naslovKlasa");
   } else {
-    opa.classList.contains("novaKlasa");
+    opa.classList.add("naslovKlasa");
   }
   console.log(opa);
 }
