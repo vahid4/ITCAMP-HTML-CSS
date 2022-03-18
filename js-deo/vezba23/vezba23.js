@@ -114,7 +114,7 @@ GetData();
   console.log("kliknuo si ga");
 }
 */
-function dugme() {
+/*function dugme() {
   async function GetData() {
     novi = [];
     main = document.getElementById("main");
@@ -141,3 +141,39 @@ function dugme() {
 }
 
 //vezbanje
+*/
+
+//const el = document.getElementById("dva");
+/*el.addEventListener("click", (e) => {
+  console.log(e);
+});
+*/
+
+/*const inp = document.getElementById("name");
+inp.addEventListener("change", inputHandler);
+console.log(inp);
+function inputHandler() {
+  console.log("promijenio si nesto brate");
+  console.log(inp);
+}*/
+const e = document.getElementById("email");
+const n = document.getElementById("name");
+const p = document.getElementById("password");
+const u = document.getElementById("username");
+//console.log(e);
+e.addEventListener("change", () => {
+  console.log(e.value);
+});
+n.addEventListener("change", () => {
+  console.log(n.value);
+});
+p.addEventListener("change", () => {
+  console.log(p.value);
+});
+u.addEventListener("change", () => {
+  console.log(u.value);
+});
+
+const objekat = {};
+console.log(objekat);
+dugme = document.getElementById("dva");
