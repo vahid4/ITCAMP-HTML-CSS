@@ -173,7 +173,7 @@ p.addEventListener("change", () => {
 u.addEventListener("change", () => {
   console.log(u.value);
 });
-
 const objekat = {};
 console.log(objekat);
 dugme = document.getElementById("dva");
+dugme.addEventListener("submit", () => {});
