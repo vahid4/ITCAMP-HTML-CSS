@@ -15,5 +15,7 @@
 .dugme {
   border: none;
   font-size: larger;
-  color: purple;
+  color:red;
+  cursor: pointer;
+
 }
